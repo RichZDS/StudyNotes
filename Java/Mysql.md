@@ -850,3 +850,31 @@ CREATE trigger 触发器名字 BEFORE|AFTER 触发事件
 ON 触发事件的操作表名 FOR EACH ROW （sql语句）表示激活触发器后被执行的语句
 ```
 
+​		
+
+
+
+
+
+
+
+
+
+## 存储过程
+
+建立存储过程
+
+> create procedure sp_name() begin ......... end
+
+调用存储过程
+
+> call sp_name()
+
+**存储过程名称后面必须加括号，哪怕该存储过程没有参数传递**
+
+删除存储过程
+
+drop produce sp_name()
+
+**不能在存储过程中删除另一个存储过程，只能调用存储过程**
+
